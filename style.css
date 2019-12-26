@@ -122,7 +122,7 @@ body {
 #about-me img {
   float: right;
   width: 22.5rem;
-  max-width: 80%;
+  max-width: 100%;
 }
 
 /*-- Experience Section --*/
@@ -251,7 +251,7 @@ body {
 
 #squash img {
   width: 22.5rem;
-  max-width: 80%;
+  max-width: 100%;
 }
 
 #squash .btn-secondary {
