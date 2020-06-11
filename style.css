@@ -127,19 +127,23 @@ img {
   border-color: #3b3b3b;
 }
 
+#about-me a {
+  font-size: 0.75rem;
+}
+
+#download-button {
+  margin-right: 1rem;
+}
+
 #download-button-logo {
-  font-size: 16px;
+  font-size: 12px;
   margin-top: 0.15rem;
   float: left;
   margin-right: 0.5rem;
 }
 
-#linkedin-button {
-  margin-left: 1rem;
-}
-
 #linkedin-button-logo {
-  font-size: 22px;
+  font-size: 18px;
   float: left;
   margin-right: 0.5rem;
   margin-top: -0.05rem;
@@ -276,9 +280,7 @@ img {
   border-color: #a60000;
 }
 
-#podcasts-card {
-  margin-left: 2rem;
-}
+
 
 .interests-card {
   background-color: #fafafa;
