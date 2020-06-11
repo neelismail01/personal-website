@@ -277,9 +277,14 @@ img {
   height: auto;
 }
 
+#squash-button {
+  text-align: center;
+}
+
 #squash .btn-secondary {
   background-color: #d10000;
   border-color: #d10000;
+  justify-content: center;
 }
 
 #squash .btn-secondary:hover {
