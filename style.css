@@ -38,6 +38,12 @@ img {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
 }
 
+.horizontal-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 /*--- Navigation --*/
 
@@ -263,11 +269,12 @@ img {
 .carousel {
   width: 32rem;
   max-width: 100%;
+  border-radius: 0.25rem;
 }
 
 .carousel img {
-  height: 30rem;
-  border-radius: 0.25rem;
+  width: 100%;
+  height: auto;
 }
 
 #squash .btn-secondary {
@@ -279,8 +286,6 @@ img {
   background-color: #a60000;
   border-color: #a60000;
 }
-
-
 
 .interests-card {
   background-color: #fafafa;
