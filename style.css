@@ -153,7 +153,8 @@ img {
 }
 
 #about-me img {
-  float: left;
+  display: block;
+  margin: auto;
 }
 
 #download-button {
@@ -162,21 +163,16 @@ img {
 
 #download-button-logo {
   font-size: 12px;
-  margin-top: 0.15rem;
+  margin-top: 0.2rem;
   float: left;
   margin-right: 0.5rem;
-}
-
-#linkedin-button-logo {
-  font-size: 18px;
-  float: left;
-  margin-right: 0.5rem;
-  margin-top: -0.05rem;
 }
 
 .btn-secondary:hover {
   background-color: black;
   border-color: black;
+  transition: 0.5s ease;
+  transform: scale(1.03);
 }
 
 #about-me img {
@@ -206,26 +202,26 @@ img {
   padding-top: 60px;
 }
 
-.gallery-block .heading{
+.gallery-block .heading {
     text-align: center;
 }
 
-.gallery-block.compact-gallery .item{
+.gallery-block.compact-gallery .item {
   overflow: hidden;
   margin-bottom: 0;
   opacity: 1;
 }
 
-.gallery-block.compact-gallery .item .image{
+.gallery-block.compact-gallery .item .image {
   transition: 1s ease;
 }
 
-.gallery-block.compact-gallery .item .info{
+.gallery-block.compact-gallery .item .info {
   position: relative;
   display: inline-block;
 }
 
-.gallery-block.compact-gallery .item .description{
+.gallery-block.compact-gallery .item .description {
     display: grid;
     position: absolute;
     bottom: 0;
@@ -243,12 +239,12 @@ img {
     align-items: center;
 }
 
-.gallery-block.compact-gallery .item .description .description-heading{
+.gallery-block.compact-gallery .item .description .description-heading {
   font-size: 1em;
   font-weight: bold;
 }
 
-.gallery-block.compact-gallery .item .description .description-body{
+.gallery-block.compact-gallery .item .description .description-body {
   font-size: 0.8em;
   margin-top: 10px;
   font-weight: 300;
@@ -292,6 +288,11 @@ img {
   width: 4.75rem;
   height: auto;
   border-radius: 1rem;
+}
+
+.tech-skills-images img:hover {
+  transition: 0.3s ease;
+  transform: scale(1.08);
 }
 
 .courses {
@@ -345,6 +346,8 @@ img {
 #squash .btn-secondary:hover {
   background-color: #a60000;
   border-color: #a60000;
+  transition: 0.4s ease;
+  transform: scale(1.05);
 }
 
 .interests-card {
@@ -359,14 +362,14 @@ img {
   font-weight: bold;
 }
 
-.interests-book-cover-photo {
-  max-width: 6rem;
-  max-height: 6rem;
+.interests-cover-photo {
+  max-width: 5rem;
+  max-height: 5rem;
 }
 
-.interests-podcast-cover-photo {
-  max-width: 6rem;
-  max-height: 6rem;
+.interests-cover-photo:hover {
+  transition: 0.3s ease;
+  transform: scale(1.06);
 }
 
 .interests-title {
@@ -412,9 +415,13 @@ img {
 }
 
 #contact .profiles svg.svg-inline--fa:hover {
-  color: black!important;
+  color: black;
 }
 
+.profiles-logo:hover {
+  transition: 0.3s ease;
+  transform: scale(1.06);
+}
 
 /*--- Footer --*/
 
