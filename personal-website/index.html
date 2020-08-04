@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Neel Ismail</title>
+	<link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/fixed.css">
+</head>
+
+<body data-spy="scroll" data-target="#navbarResponsive">
+
+	<!--- Start Home Selection -->
+	<div id="about-me">
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#about-me">Welcome</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#portfolio">Portfolio</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#squash">Interests</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</nav>		
+	</div>
+	<!--- End Home Section -->
+
+
+	<!--- Start About Me Section -->
+	<div class="jumbotron">
+		<div id="top-card" class="card main-card">
+			<div class="card-body">
+				<div id="about-me" class="offset">
+					<div class="row">
+						<div class="col-sm-6 horizontal-center">
+							<img class="horizontal-center" src="img/headshot.jpeg">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-7 horizontal-center">
+							<div class="heading">
+								<h1><strong>Hi, I'm Neel.</strong></h1>
+							</div>
+							<br>
+							<p>
+								I am currently a second-year undergraduate student at the University of Waterloo studying computer science. Recently, I completed an internship at Fidelity Investments where I worked as a Software Development Engineer in Test.
+							</p>
+							<br>
+							<div class="row justify-content-center text-center profiles">
+								<div class="profiles-logo">
+									<a href="https://www.linkedin.com/in/neelismail/" target="_blank"><i class="fab fa-linkedin"></i></a>
+								</div>
+								<div class="profiles-logo">
+									<a href="Neel-Ismail-Resume.pdf" download target="_blank"><i class="fas fa-file-download"></i></a>
+								</div>
+								<div class="profiles-logo">
+									<a href="https://github.com/neelismail01" target="_blank"><i class="fab fa-github"></i></a>
+								</div>
+								<div class="profiles-logo">
+									<a href="https://medium.com/@neelismail01" target="_blank"><i class="fab fa-medium"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End About Me Section -->
+
+		<!--- Start Portfolio Section -->
+		<div class="card main-card">
+			<div class="card-body">
+				<div id="portfolio" class="offset">
+					<section class="gallery-block compact-gallery">
+						<div class="container">
+							<div class="heading">
+								<h1><strong>MY PORTFOLIO</strong></h1>
+								<div class="heading-underline"></div>
+							</div>
+							<div class="row justify-content-center">
+								<div class="col-md-7">
+									<p class="text-center">
+										Here's some of my work! Hover over any of the items for a brief description of the project. Click on any of the items to view the full project. 
+									</p>
+								</div>
+							</div>
+							<div class="row justify-content-center">
+								<div class="col-md-6 col-lg-5 item zoom-on-hover">
+									<a class="lightbox" href="https://github.com/neelismail01/smart-brain" target="_blank">
+										<img class="img-fluid image" src="img/smart-brain.jpeg">
+										<span class="description">
+											<span class="description-heading">Smart Brain</span>
+											<span class="description-body">This is a web application I made that can detect faces within images! Simply provide the URL to an image online, and the program will find the faces in the picture. Technologies used include: React.js, Express.js, PostgreSQL, and the Clarifai API</span>
+										</span>
+									</a>
+								</div>
+								<div class="col-md-6 col-lg-5 item zoom-on-hover">
+									<a class="lightbox" href="https://github.com/neelismail01/your-space" target="_blank">
+										<img class="img-fluid image" src="img/your-space.jpeg">
+										<span class="description">
+											<span class="description-heading">YourSpace</span>
+											<span class="description-body">This is a Twitter-like social media site I made as a fun side project. You can create your own account, post messages and pictures, and search, view, and like posts. Technologies used include: HTML/CSS, Materialize.css, PHP, and SQL</span>
+										</span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</section>
+					<div class="row justify-content-center">
+						<div id="accordion" class="col-md-9">
+						    <div class="card">
+						    	<div class="card-header" id="headingOne">
+						      		<h5 class="mb-0">
+							        	<button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">RELEVANT COURSEWORK</button>
+						      		</h5>
+						    	</div>
+								<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+						    		<div id="tech-skills" class="card-body">
+								        <h6><strong>Computer Science:</strong></h6>
+								        <br>
+										<p class="courses">
+											<strong>CS135:</strong> Designing Functional Programs<span class="courses-separator">•</span>
+											<strong>CS136:</strong> Elementary Algorithm Design and Data Abstraction<span class="courses-separator">•</span>
+											<strong>CS245:</strong> Logic and Computation<span class="courses-separator">•</span>
+											<strong>CS246:</strong> Object-Oriented Software Development
+										</p>
+										<h6><strong>Mathematics:</strong></h6>
+										<br>
+										<p class="courses">
+											<strong>MATH136:</strong> Linear Algebra 1<span class="courses-separator">•</span>
+											<strong>MATH137:</strong> Calculus 1<span class="courses-separator">•</span>
+											<strong>MATH138:</strong> Calculus 2<span class="courses-separator">•</span>
+											<strong>STAT230:</strong> Probability
+										</p>
+										<h6><strong>Business:</strong></h6>
+										<br>
+										<p class="courses">
+											<strong>AFM101:</strong> Introduction to Financial Accounting<span class="courses-separator">•</span>
+											<strong>ECON101:</strong> Introduction to Microeconomics<span class="courses-separator">•</span>
+											<strong>ECON102:</strong> Introduction to Macroeconomics<span class="courses-separator">•</span>
+											<strong>ACTSC221:</strong> Introduction to Financial Mathematics
+										</p>
+						      		</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--- End Portfolio Section -->
+
+
+		<!--- Start Squash Section -->
+		<div class="card main-card">
+			<div class="card-body">
+				<div id="squash" class="offset">
+					<div class="heading">
+						<h1><strong>Interests</strong></h1>
+						<div class="heading-underline"></div>
+					</div>
+					<div class="row justify-content-center">
+						<div class="col-md-12 col-lg-5 squash-section">
+							<div id="carouselExampleIndicators" class="carousel slide horizontal-center vertical-center" data-ride="carousel">
+								<ol class="carousel-indicators">
+								<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+								<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+								<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+								</ol>
+								<div class="carousel-inner">
+								<div class="carousel-item active">
+									<img class="d-block w-100" src="img/nationals-squash.jpeg" alt="First slide">
+								</div>
+								<div class="carousel-item">
+									<img class="d-block w-100" src="img/ouas-squash.jpeg" alt="Second slide">
+								</div>
+								<div class="carousel-item">
+									<img class="d-block w-100" src="img/WesternWaterloo_1.jpeg" alt="Third slide">
+								</div>
+								</div>
+								<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="sr-only">Previous</span>
+								</a>
+								<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="sr-only">Next</span>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-8 col-lg-5 squash-section">
+							<div class="vertical-center">
+								<p id="squash-intro">
+									I'm also an avid squash player! My dad introduced me to squash when I was 10 years old, and I quickly started loving it. Within a year, 
+									I started playing tournaments and began a rewarding journey as a competitive squash player. I was fortunate to have the opportunity to play tournaments across Canada and around the World.
+									<br><br>
+									Recently, I was named the <strong> Ontario University Athletics Rookie of the Year</strong> while competing as a member of the University of Waterloo's Varsity Squash Team. I am also a <strong>provincial and national champion</strong> and have <strong>represented Team Canada</strong> at the Pan-American Junior Championships. You can watch a video of me from TSN <a href="https://www.youtube.com/watch?v=dRhEoNoeR7A" target="_blank">here</a>!
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Squash Section -->
+
+		<!--- Start Contact Section -->
+		<div id="bottom-card" class="card main-card">
+			<div class="card-body">
+				<div id="contact" class="offset">
+					<div class="row text-center">
+						<div class="col-12">
+							<h1><strong>CONTACT ME</strong></h1>
+							<div class="heading-underline"></div>
+						</div>
+					</div>
+					<div class="row justify-content-center contact">
+						<div class="col-md-6 writing">
+							<p>
+								Feel free to contact me! Whether it's a discussion on emerging technologies or current events,
+								or simply scheduling a game of squash, I am always happy to chat!
+							</p>
+							<div class="btn-container">
+								<a class="btn btn-secondary btm-md" href="mailto:neelismail01@gmail.com"><strong> Email Me</strong></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--- End Contact Section -->
+	</div>
+
+	<!--- Start Footer Section -->
+	<div id="footer">
+		<footer>
+			<div class="row">
+				<div class="col-md-12">
+					<p>
+						<span style="float: right">Made by Neel Ismail with <i class="fa fa-code" aria-hidden="true"></i> and <i class="fa fa-heart" aria-hidden="true"></i></span>
+					</p>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!--- End Footer Section -->
+</div>
+
+<!--- Script Source Files -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+<script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+<!--- End of Script Source Files -->
+
+</body>
+</html>

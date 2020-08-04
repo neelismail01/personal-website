@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+
+body {
+  overflow-x: hidden;
+  font-family: 'Titillium Web', sans-serif;
+  color: #424a52;
+  font-size: 1.1rem;
+}
+
+h1 {
+  color: black;
+}
+
+.offset:before {
+  display: block;
+  content: "";
+  height: 3.5rem;
+  margin-top: -3.5rem;
+}
+
+.vertical-center {
+  position: relative;
+  top: 50%;
+  transform: perspective(1px) translateY(-50%);
+}
+
+.card {
+  margin: 1.25rem -0.5rem;
+}
+
+.heading-underline {
+  width: 4rem;
+  height: 0.2rem;
+  background-color: #0088e3;
+  margin: 0 auto 2rem;
+}
+
+.sub-heading-underline {
+  width: 4rem;
+  height: 0.2rem;
+  background-color: #424a52;
+  margin: 0 auto 2rem;
+  margin-top: -1rem;
+}
+
+img {
+  border-radius: 0.25rem;
+}
+
+.main-card {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.horizontal-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-secondary {
+  border-width: small;
+  border-radius: 10;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  margin-top: 0.8rem;
+  padding: 1rem 1.25rem;
+  color: white;
+  background-color: #3b3b3b;
+  border-color: #3b3b3b;
+}
+
+
+/*--- Navigation --*/
+
+.navbar {
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 0.75rem;
+  letter-spacing: 0.1rem;
+  background: white;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.navbar-nav li {
+  padding-right: 0.25rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #6e6e6e;;
+  padding-top: 0.8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: white;
+  font-weight: bold;
+}
+
+
+/*--- About Me Section --*/
+
+#top-card {
+  margin-top: -0.5rem;
+}
+
+#about-me img {
+  border-radius: 20rem;
+  margin: auto;
+  width: 17.5rem;
+  max-width: 100%;
+}
+
+#about-me h1 {
+  text-align: center;
+}
+
+#about-me .profiles svg.svg-inline--fa {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+  height: 2.5rem;
+  color: #4a4a4a;
+}
+
+#about-me .profiles svg.svg-inline--fa:hover {
+  color: black;
+}
+
+.profiles-logo:hover {
+  transition: 0.5s ease;
+  transform: scale(1.5);
+}
+
+/*-- Portfolio Section --*/
+
+#portfolio {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+  align-content: center;
+}
+
+#portfolio p {
+	margin-bottom: 2rem;
+}
+
+#portfolio h1 {
+	margin-top: -2rem;
+}
+
+.gallery-block {
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+.gallery-block .heading {
+  text-align: center;
+}
+
+.gallery-block.compact-gallery .item {
+  overflow: hidden;
+  margin-bottom: 0;
+  opacity: 1;
+}
+
+.gallery-block.compact-gallery .item .image {
+  transition: 1s ease;
+}
+
+.gallery-block.compact-gallery .item .info {
+  position: relative;
+  display: inline-block;
+}
+
+.gallery-block.compact-gallery .item .description {
+    display: grid;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    font-size: 17px;
+    line-height: 18px;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 35px;
+    opacity: 1;
+    color: #2e2e2e;
+    transition: 1.35s ease;
+    text-align: center;
+    align-items: center;
+}
+
+.gallery-block.compact-gallery .item .description .description-heading {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.gallery-block.compact-gallery .item .description .description-body {
+  font-size: 0.8em;
+  margin-top: 10px;
+  font-weight: 300;
+}
+
+.gallery-block.compact-gallery .item .description {
+  opacity: 0; 
+}
+
+.gallery-block.compact-gallery .item a:hover .description {
+  opacity: 1; 
+} 
+
+.gallery-block .zoom-on-hover:hover .image {
+  transform: scale(1.1);
+  border-color: grey;
+  opacity: 0.25; 
+}
+
+#accordion {
+  margin-top: -2rem;
+}
+
+#tech-skills {
+  background-color: #fafafa;
+  border-style: none;
+  box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.2);
+  margin-top: -0.5rem;
+}
+
+.courses {
+  margin-top: -1rem;
+}
+
+.card-body h6 {
+  font-size: 1.1rem;
+  text-decoration: underline;
+}
+
+.courses-separator {
+  margin-left: 0.4rem;
+  margin-right: 0.4rem;
+}
+
+/*-- Interests Section --*/
+
+#squash {
+  margin: 0rem 1.25rem;
+  align-content: center;
+}
+
+#squash .heading {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.carousel {
+  width: 27.5rem;
+  max-width: 100%;
+  border-radius: 0.25rem;
+}
+
+.carousel img {
+  width: 100%;
+  height: auto;
+}
+
+.squash-section h3 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.squash-section p strong {
+  color: black;
+}
+
+#squash .btn-secondary {
+  background-color: #3b3b3b;
+  border-color: #3b3b3b;
+  justify-content: center;
+}
+
+#squash .btn-secondary:hover {
+  background-color: black;
+  border-color: black;
+  transition: 0.4s ease;
+  transform: scale(1.05);
+}
+
+.interests-card {
+  background-color: #fafafa;
+  border-style: none;
+  box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.2);
+}
+
+#destined-for-war img {
+  width: 95%;
+}
+
+.interests-header {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+.interests-cover-photo {
+  max-width: 5rem;
+  max-height: 5rem;
+}
+
+.interests-cover-photo:hover {
+  transition: 0.3s ease;
+  transform: scale(1.06);
+}
+
+.interests-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.interests-author {
+  font-size: 0.75rem;
+  margin-top: -0.75rem;
+  margin-left: 0.1rem;
+}
+
+.interests-item {
+  margin-top: -1.75rem;
+}
+
+
+/*--- Contact Section --*/
+
+#bottom-card {
+  margin-bottom: -2rem;
+}
+
+.contact {
+  margin-top: -2.25rem;
+}
+
+.contact p {
+  text-align: center;
+}
+
+.btn-container .btn-secondary:hover {
+  transition: 0.3s ease;
+  background-color: black;
+  transform: scale(1.06);
+}
+
+.btn-container {
+  text-align: center;
+}
+
+/*--- Footer --*/
+
+#footer {
+  margin-top: -2rem;
+  background-color: #6e6e6e;
+  color: white;
+}
+
+footer {
+  padding: 0.4rem 2rem;
+  width: 100%;
+}
+
+
+
+/*--- Media Queries --*/
+
+@media (max-width: 767px) {
+.caption h1 {
+  font-size: 2.3rem;
+  letter-spacing: 0.15rem;
+  padding-bottom: 0.5rem;
+}
+
+.caption h3 {
+  font-size: 1.2rem;
+  padding-bottom: 1.2rem;
+}
+
+.btn-lg {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+
+.narrow h1 {
+  font-size: 1.5rem;
+}
+
+.clients img {
+  max-width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+}
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
