@@ -215,7 +215,6 @@ img {
 /*-- Interests Section --*/
 
 #squash {
-  margin: 0rem 1.25rem;
   align-content: center;
 }
 
@@ -272,6 +271,10 @@ img {
   background-color: #3b3b3b;
   border-color: #3b3b3b;
   justify-content: center;
+  margin-top: -0.25rem;
+  width: 10rem;
+  height: 3.25rem;
+  font-size: 0.8rem;
 }
 
 #squash .btn-secondary:hover {
