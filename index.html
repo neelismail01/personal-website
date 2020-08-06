@@ -40,38 +40,45 @@
 
 
 	<!--- Start About Me Section -->
-	<div class="jumbotron">
-		<div id="about-me" class="offset">
-			<div class="row">
-				<div class="col-sm-6 horizontal-center">
-					<img class="horizontal-center" src="img/headshot.jpeg">
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-7 horizontal-center">
-					<div class="heading">
-						<h1><strong>Hi, I'm Neel.</strong></h1>
+	<div class="landing">
+		<div class="home-wrap">
+			<div id="about-me" class="offset">
+				<div id="intro-content">
+					<div class="horizontal-center headshot">
+						<img class="horizontal-center" src="img/headshot.jpeg">
 					</div>
-					<br>
-					<p>
-						I am currently a second-year undergraduate student at the University of Waterloo studying computer science. Recently, I completed an internship at Fidelity Investments where I worked as a Software Development Engineer in Test.
-					</p>
-					<br>
-					<div class="row justify-content-center text-center profiles">
-						<div class="profiles-logo">
-							<a href="https://www.linkedin.com/in/neelismail/" target="_blank"><i class="fab fa-linkedin"></i></a>
-						</div>
-						<div class="profiles-logo">
-							<a href="Neel-Ismail-Resume.pdf" download target="_blank"><i class="fas fa-file-download"></i></a>
-						</div>
-						<div class="profiles-logo">
-							<a href="https://github.com/neelismail01" target="_blank"><i class="fab fa-github"></i></a>
-						</div>
-						<div class="profiles-logo">
-							<a href="https://medium.com/@neelismail01" target="_blank"><i class="fab fa-medium"></i></a>
+					<div class="row">
+						<div class="col-lg-7 col-md-8 horizontal-center landing-intro">
+							<div class="heading hi">
+								<h1><strong>Hi, I'm Neel.</strong></h1>
+							</div>
+							<br>
+							<p class="welcome-message">
+								2A CS Student @ UWaterloo
+								<br>
+								SDET @ Fidelity Investments Canada
+							</p>
+							<br>
+							<div class="row justify-content-center text-center profiles">
+								<div class="profiles-logo">
+									<a href="https://www.linkedin.com/in/neelismail/" target="_blank"><i class="fab fa-linkedin"></i></a>
+								</div>
+								<div class="profiles-logo">
+									<a href="Neel-Ismail-Resume.pdf" download target="_blank"><i class="fas fa-file-download"></i></a>
+								</div>
+								<div class="profiles-logo">
+									<a href="https://github.com/neelismail01" target="_blank"><i class="fab fa-github"></i></a>
+								</div>
+								<div class="profiles-logo">
+									<a href="https://medium.com/@neelismail01" target="_blank"><i class="fab fa-medium"></i></a>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
+				<section class="header-down-arrow horizontal-center">
+	  				<img src="img/downarrow.png">
+				</section>
 			</div>
 		</div>
 	</div>
@@ -114,48 +121,7 @@
 				</div>
 			</div>
 		</section>
-		<!--
-		<div class="row justify-content-center">
-			<div id="accordion" class="col-md-9">
-			    <div class="card">
-			    	<div class="card-header" id="headingOne">
-			      		<h5 class="mb-0">
-				        	<button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">RELEVANT COURSEWORK</button>
-			      		</h5>
-			    	</div>
-					<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-			    		<div id="tech-skills" class="card-body">
-					        <h6><strong>Computer Science:</strong></h6>
-					        <br>
-							<p class="courses">
-								<strong>CS135:</strong> Designing Functional Programs<span class="courses-separator">•</span>
-								<strong>CS136:</strong> Elementary Algorithm Design and Data Abstraction<span class="courses-separator">•</span>
-								<strong>CS245:</strong> Logic and Computation<span class="courses-separator">•</span>
-								<strong>CS246:</strong> Object-Oriented Software Development
-							</p>
-							<h6><strong>Mathematics:</strong></h6>
-							<br>
-							<p class="courses">
-								<strong>MATH136:</strong> Linear Algebra 1<span class="courses-separator">•</span>
-								<strong>MATH137:</strong> Calculus 1<span class="courses-separator">•</span>
-								<strong>MATH138:</strong> Calculus 2<span class="courses-separator">•</span>
-								<strong>STAT230:</strong> Probability
-							</p>
-							<h6><strong>Business:</strong></h6>
-							<br>
-							<p class="courses">
-								<strong>AFM101:</strong> Introduction to Financial Accounting<span class="courses-separator">•</span>
-								<strong>ECON101:</strong> Introduction to Microeconomics<span class="courses-separator">•</span>
-								<strong>ECON102:</strong> Introduction to Macroeconomics<span class="courses-separator">•</span>
-								<strong>ACTSC221:</strong> Introduction to Financial Mathematics
-							</p>
-			      		</div>
-					</div>
-				</div>
-			</div>
-		</div>
 	</div>
-`````-->
 	<!--- End Portfolio Section -->
 
 
@@ -278,6 +244,43 @@
 <script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
 <script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<script>
+	window.sr = ScrollReveal();
+
+	sr.reveal('.headshot', {
+		duration: 1500,
+		origin: 'bottom',
+	});
+
+	sr.reveal('.hi', {
+		delay: 500,
+		duration: 1000,
+		origin: 'bottom'
+	});
+
+	sr.reveal('.navbar', {
+		delay: 1500,
+		duration: 1000,
+		origin: 'top'
+	});
+
+	sr.reveal('.welcome-message', {
+		delay: 1500,
+		duration: 1000,
+		origin: 'left',
+		distance: '250px'
+	});
+
+	sr.reveal('.profiles', {
+		delay: 1500,
+		duration: 1000,
+		origin: 'right',
+		distance: '250px'
+	});
+
+</script>
 <!--- End of Script Source Files -->
 
 </body>

@@ -4,7 +4,7 @@ body {
   overflow-x: hidden;
   font-family: 'Titillium Web', sans-serif;
   color: #424a52;
-  font-size: 1.1rem;
+  font-size: 1.05rem;
 }
 
 h1 {
@@ -83,6 +83,14 @@ img {
 
 /*--- About Me Section --*/
 
+.landing {
+  background-color: #f7f7f7;
+}
+
+#intro-content {
+  margin-top: 5rem;
+}
+
 #about-me img {
   border-radius: 20rem;
   margin: auto;
@@ -99,9 +107,17 @@ img {
   font-size: 1.25rem;
 }
 
+#about-me .welcome-message {
+  margin-top: -1rem;
+  text-align: center;
+}
+
+#about-me .profiles {
+  margin-top: -1.25rem;
+}
+
 #about-me .profiles svg.svg-inline--fa {
   font-size: 1.5rem;
-  margin-bottom: 1rem;
   margin-right: 1.5rem;
   margin-left: 1.5rem;
   height: 2.5rem;
@@ -115,6 +131,48 @@ img {
 .profiles-logo:hover {
   transition: 0.5s ease;
   transform: scale(1.5);
+}
+
+@keyframes fade-slide-up {
+  0% {
+    opacity: 0;
+    transform: translateY(4rem);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+    transform: none;
+  }
+  50% {
+    opacity: 1;
+    transform: scale(.75);
+  }
+  100% {
+    opacity: 1,
+    transform: none;
+  }
+}
+
+.header-down-arrow img {
+  animation: fade-slide-up 2s 2s ease-out forwards;
+  opacity: 0;
+}
+
+.header-down-arrow {
+  position: absolute;
+    bottom: 6vh;
+    left: 0;
+    right: 0;
+  text-align: center;
+  width: 6rem;
+  z-index: 10;
+  animation: pulse 2s 2s ease-out infinite;
 }
 
 /*-- Portfolio Section --*/
@@ -194,24 +252,6 @@ img {
   opacity: 0.25; 
 }
 
-#accordion {
-  margin-top: -2rem;
-}
-
-.courses {
-  margin-top: -1rem;
-}
-
-.card-body h6 {
-  font-size: 1.1rem;
-  text-decoration: underline;
-}
-
-.courses-separator {
-  margin-left: 0.4rem;
-  margin-right: 0.4rem;
-}
-
 /*-- Interests Section --*/
 
 #squash {
@@ -271,7 +311,6 @@ img {
   background-color: #3b3b3b;
   border-color: #3b3b3b;
   justify-content: center;
-  margin-top: -0.25rem;
   width: 10rem;
   height: 3.25rem;
   font-size: 0.8rem;
