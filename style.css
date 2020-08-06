@@ -70,7 +70,7 @@ img {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: #6e6e6e;;
+  color: #6e6e6e;
   padding-top: 0.8rem;
 }
 
@@ -83,12 +83,37 @@ img {
 
 /*--- About Me Section --*/
 
-.landing {
-  background-color: #f7f7f7;
+.outer {
+  width: 100%;
+  height: 100vh;
+  display: table;
+  z-index: -1;
+  padding-top: 6rem;
 }
 
-#intro-content {
-  margin-top: 5rem;
+.middle {
+  clip: rect(0, auto, auto, 0);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.inner {
+  display: table;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+
+#about-me {
+  background-color: #f7f7f7;
 }
 
 #about-me img {
@@ -178,12 +203,10 @@ img {
 /*-- Portfolio Section --*/
 
 #portfolio {
-  align-content: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
-#portfolio p {
-	margin-bottom: 2rem;
-}
 
 .gallery-block {
   padding-bottom: 60px;
@@ -255,11 +278,9 @@ img {
 /*-- Interests Section --*/
 
 #squash {
-  align-content: center;
-}
-
-#squash .card {
-  margin-right: 2.25rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #f7f7f7;
 }
 
 #squash h4 {
@@ -279,8 +300,6 @@ img {
 
 #squash .heading {
   text-align: center;
-  margin-top: 2rem;
-  margin-bottom: 3rem;
 }
 
 .carousel {
@@ -329,9 +348,9 @@ img {
 
 /*--- Contact Section --*/
 
-#bottom-card {
-  margin-bottom: 2rem;
-  background-color: white;
+#contact {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .contact {
@@ -357,10 +376,6 @@ img {
 #footer {
   background-color: #6e6e6e;
   color: white;
-}
-
-#contact {
-  margin-bottom: 2rem;
 }
 
 footer {
@@ -402,20 +417,14 @@ footer {
 
 
 /*============ BOOTSTRAP BREAK POINTS:
-
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
-
 Small (sm) devices (landscape phones, 576px and up)
 @media (min-width: 576px) { ... }
-
 Medium (md) devices (tablets, 768px and up)
 @media (min-width: 768px) { ... }
-
 Large (lg) devices (desktops, 992px and up)
 @media (min-width: 992px) { ... }
-
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
-
 =============*/
