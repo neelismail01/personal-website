@@ -3,37 +3,41 @@
 }
 
 .intro-background {
-    height: 80vh;
+    height: 85vh;
     width: 100wh;
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    background: linear-gradient(-45deg, #00a2ff, #002347, #dbc900);
+    background: linear-gradient(45deg, #f8fc03, #ff5e5e, #c97dff, #00fbff);
     background-size: 200% 200%;
-    -webkit-animation: Gradient 40s ease infinite;
-    -moz-animation: Gradient 40s ease infinite;
-    animation: Gradient 40s ease infinite;
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
+    border-bottom-left-radius: 85% 15%;
+    border-bottom-right-radius: 85% 15%;
+    box-shadow: rgba(50, 50, 93, 2) 0px 30px 60px -12px inset, rgba(0, 0, 0, 2) 0px 18px 36px -18px inset;
 }
 
 .info-container {
     background-color: white;
     min-width: 600px;
-    min-height: 300px;
+    min-height: 350px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .headshot {
-    position: absolute;
-    margin-top: -200px;
+    margin-top: -225px;
     height: 250px;
     border-radius: 125px;
-    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1), 0 0 0 0 rgba(0, 0, 0, 0.1);
 }
 
 .content {
+    opacity: 0.8;
     width: 100%;
     max-height: 80%;
     display: flex;
@@ -74,17 +78,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20vh;
+    height: 15vh;
+    z-index: 5;
 }
 
 .arrow {
     height: 50px;
     border-radius: 25px;
-    background: linear-gradient(-90deg, #00a2ff, #002347, #dbc900);
-    background-size: 200% 200%;
-    -webkit-animation: Gradient 30s ease infinite;
-    -moz-animation: Gradient 30s ease infinite;
-    animation: Gradient 30s ease infinite;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -92,34 +92,28 @@
     padding-right: 20px;
     cursor: pointer;
     transition: 0.25s ease;
-}
-
-.arrow:hover {
-    transform: scale(0.95);
+    animation: pulse 2s 2s ease-out infinite;
 }
 
 .down-arrow {
-    color: white;
-    font-size: 1.1rem;
+    color: black;
+    font-size: 2.25rem;
 }
-
-.arrow-text {
-    color: white;
-    font-size: 1rem;
-    font-weight: bold;
-    margin-left: 5px;
-}
--webkit-keyframes Gradient {
+  
+  @keyframes pulse {
     0% {
-        background-position: 0% 50%
+      opacity: 1;
+      transform: none;
     }
     50% {
-        background-position: 100% 50%
+      opacity: 1;
+      transform: scale(.8);
     }
     100% {
-        background-position: 0% 50%
+      opacity: 1;
+      transform: none;
     }
-}
+  }
   
   @-moz-keyframes Gradient {
     0% {

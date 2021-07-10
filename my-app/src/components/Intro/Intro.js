@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub  } from '@fortawesome/free-brands-svg-icons';
-import { faFileDownload, faArrowDown } from '@fortawesome/free-solid-svg-icons';
+import { faFileDownload, faAngleDoubleDown } from '@fortawesome/free-solid-svg-icons';
 
 import './Intro.css';
 import headshot from '../../assets/headshot.jpeg';
@@ -41,8 +41,7 @@ const Intro = (props) => {
             </div>
             <div className="bottom-row">
                 <div className="arrow" onClick={showPortfolio}>
-                    <FontAwesomeIcon icon={faArrowDown} className="down-arrow" />
-                    <p className="arrow-text">View My Portfolio</p>
+                    <FontAwesomeIcon icon={faAngleDoubleDown} className="down-arrow" />
                 </div>
             </div>
         </div>
