@@ -1,0 +1,146 @@
+.intro-container {
+    height: 100vh;
+}
+
+.intro-background {
+    height: 80vh;
+    width: 100wh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background: linear-gradient(-45deg, #00a2ff, #002347, #dbc900);
+    background-size: 200% 200%;
+    -webkit-animation: Gradient 40s ease infinite;
+    -moz-animation: Gradient 40s ease infinite;
+    animation: Gradient 40s ease infinite;
+}
+
+.info-container {
+    background-color: white;
+    min-width: 600px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.headshot {
+    position: absolute;
+    margin-top: -200px;
+    height: 250px;
+    border-radius: 125px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1), 0 0 0 0 rgba(0, 0, 0, 0.1);
+}
+
+.content {
+    width: 100%;
+    max-height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    font-size: 2.25rem;
+    font-weight: bold;
+}
+
+.intro-text {
+    margin-top: -15px;
+    font-size: 1.1rem;
+    color: #757575;
+}
+
+.icons-row {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+
+.icon {
+    color: #002347;
+    font-size: 2rem;
+    transition: 0.25s ease;
+}
+
+.icon:hover {
+    transform: scale(0.9);
+}
+
+.bottom-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+.arrow {
+    height: 50px;
+    border-radius: 25px;
+    background: linear-gradient(-90deg, #00a2ff, #002347, #dbc900);
+    background-size: 200% 200%;
+    -webkit-animation: Gradient 30s ease infinite;
+    -moz-animation: Gradient 30s ease infinite;
+    animation: Gradient 30s ease infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    transition: 0.25s ease;
+}
+
+.arrow:hover {
+    transform: scale(0.95);
+}
+
+.down-arrow {
+    color: white;
+    font-size: 1.1rem;
+}
+
+.arrow-text {
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 5px;
+}
+-webkit-keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+  
+  @-moz-keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+  
+  @keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
