@@ -7,7 +7,7 @@ import './Intro.css';
 import headshot from '../../assets/headshot.jpeg';
 
 
-const Intro = (props) => {
+const Intro = () => {
     const showPortfolio = event => {
         event.preventDefault();
     }

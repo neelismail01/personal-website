@@ -1,0 +1,123 @@
+.projects-section-main-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.projects-section-container {
+    width: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.projects-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+}
+
+.projects-header h1 {
+    font-size: 1.75rem;
+    text-align: left
+}
+
+.projects-header p {
+    font-size: 0.95rem;
+    color: grey;
+    text-align: left;
+    margin-top: -5px;
+    line-height: 1.5rem;
+}
+
+.header-underline {
+    background: linear-gradient(45deg, #f8fc03, #ff5e5e, #c97dff, #00fbff);
+    background-size: 200% 200%;
+    width: 200px;
+    height: 5px;
+    border-radius: 2.5px;
+}
+
+.project-container {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.project {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    min-width: 400px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    border-radius: 5px;
+}
+
+.project-details {
+    padding: 15px;
+}
+
+.project-title-github {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.project-title {
+    font-weight: bold;
+    color: #ff6e2f;
+    font-size: 1.25rem;
+    text-align: left;
+    margin-right: 1rem;
+}
+
+.project-github-icon {
+    font-size: 1.15rem;
+    color: black;
+    transition: 0.25s ease;
+}
+
+.project-github-icon:hover {
+    transform: scale(0.9);
+}
+
+.project-subtitle {
+    color: grey;
+    font-weight: bold;
+    text-align: left;
+    margin-top: -7.5px;
+}
+
+.description {
+    color: grey;
+    text-align: left;
+    margin-top: -7.5px;
+    line-height: 1.5rem;
+}
+
+.technologies-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.technologies {
+    border: 1.5px solid #ff6e2f;
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+    border-radius: 15px;
+    margin: 3px;
+}
+
+.technologies p {
+    color: #ff6e2f;
+    font-size: 0.75rem;
+    font-weight: bold;
+}
