@@ -30,7 +30,7 @@ const Intro = () => {
                                 <FontAwesomeIcon icon={faLinkedin} className="icon" />
                             </a>
                             <a href="https://www.linkedin.com/in/neelismail/" >
-                            <   FontAwesomeIcon icon={faFileDownload} className="icon" />
+                                <FontAwesomeIcon icon={faFileDownload} className="icon" />
                             </a>
                             <a href="https://github.com/neelismail01" >
                                 <FontAwesomeIcon icon={faGithub} className="icon" />

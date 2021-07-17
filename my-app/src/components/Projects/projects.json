@@ -3,7 +3,7 @@
         "id": 1,
         "name": "OrderBud",
         "subtitle": "Social marketplace for local small businesses",
-        "description": "OrderBud is a marketplace app that helps users find small businesses in their neighbourhood that sell products they are looking for. Users can explore the menus of businesses and purchase products from them through the app. An in-app social network was also developed to enable users to share their purchases and highlight recommendations to friends.",
+        "description": "OrderBud is a marketplace app that helps users find small businesses in their neighbourhood that sell products they are looking for. Users can explore the menus of nearby businesses and purchase products from them through the app. An in-app social network was also developed to enable users to share their purchases and highlight recommendations to friends.",
         "technologies": ["React Native", "Redux", "Node", "Express", "MongoDB"],
         "github": "https://github.com/neelismail01/order-bud"
     },
