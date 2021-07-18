@@ -1,0 +1,64 @@
+.contact-section-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding-bottom: 3rem;
+}
+
+.contact-underline {
+    background: linear-gradient(45deg, #ff5500, #f8fc03);
+    background-size: 200% 400%;
+    width: 100px;
+    height: 5px;
+    border-radius: 2.5px;
+    margin-bottom: -0.5rem;
+}
+
+.contact-header h1 {
+    font-size: 2.25rem;
+}
+
+.contact-text {
+    line-height: 1.5rem;
+    color: grey;
+    text-align: center;
+}
+
+.email-button {
+    height: 50px;
+    width: 150px;
+    background: linear-gradient(45deg, #ff5500, #f8fc03);
+    background-size: 400% 200%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 25px;
+    transition: 0.25s ease;
+}
+
+.email-button:hover {
+    transform: scale(0.95);
+}
+
+.email-button a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.contact-indented-circle {
+    background: linear-gradient(45deg, #ff5e5e, #f8fc03);
+    background-size: 200%, 200%;
+    height: 20px;
+    width: 100%;
+}
