@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.31b9e4f0.chunk.css",
-    "main.js": "/static/js/main.de83eb03.chunk.js",
-    "main.js.map": "/static/js/main.de83eb03.chunk.js.map",
+    "main.css": "/static/css/main.bc417879.chunk.css",
+    "main.js": "/static/js/main.532ee4f9.chunk.js",
+    "main.js.map": "/static/js/main.532ee4f9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9b89de3f.js",
     "runtime-main.js.map": "/static/js/runtime-main.9b89de3f.js.map",
     "static/js/2.133940e7.chunk.js": "/static/js/2.133940e7.chunk.js",
     "static/js/2.133940e7.chunk.js.map": "/static/js/2.133940e7.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.31b9e4f0.chunk.css.map": "/static/css/main.31b9e4f0.chunk.css.map",
+    "static/css/main.bc417879.chunk.css.map": "/static/css/main.bc417879.chunk.css.map",
     "static/js/2.133940e7.chunk.js.LICENSE.txt": "/static/js/2.133940e7.chunk.js.LICENSE.txt",
     "static/media/Ismail_N.ce610573.jpg": "/static/media/Ismail_N.ce610573.jpg",
+    "static/media/Neel-Ismail-Resume.549ffac4.pdf": "/static/media/Neel-Ismail-Resume.549ffac4.pdf",
     "static/media/alexa.7eaf0a61.png": "/static/media/alexa.7eaf0a61.png",
     "static/media/catan.01811473.png": "/static/media/catan.01811473.png",
     "static/media/flashback.4b64782e.png": "/static/media/flashback.4b64782e.png",
@@ -23,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.9b89de3f.js",
     "static/js/2.133940e7.chunk.js",
-    "static/css/main.31b9e4f0.chunk.css",
-    "static/js/main.de83eb03.chunk.js"
+    "static/css/main.bc417879.chunk.css",
+    "static/js/main.532ee4f9.chunk.js"
   ]
 }
