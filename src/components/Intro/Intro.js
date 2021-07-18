@@ -5,7 +5,7 @@ import { faFileDownload, faAngleDoubleDown } from '@fortawesome/free-solid-svg-i
 
 import './Intro.css';
 import headshot from '../../assets/headshot.jpeg';
-
+import resume from '../../assets/Neel-Ismail-Resume.pdf';
 
 const Intro = () => {
     const showPortfolio = event => {
@@ -29,7 +29,7 @@ const Intro = () => {
                             <a href="https://www.linkedin.com/in/neelismail/" >
                                 <FontAwesomeIcon icon={faLinkedin} className="icon" />
                             </a>
-                            <a href="https://www.linkedin.com/in/neelismail/" >
+                            <a href={resume} >
                                 <FontAwesomeIcon icon={faFileDownload} className="icon" />
                             </a>
                             <a href="https://github.com/neelismail01" >
@@ -37,9 +37,11 @@ const Intro = () => {
                             </a>
                         </div>
                     </div>
-                    <div className="arrow" onClick={showPortfolio}>
-                        <FontAwesomeIcon icon={faAngleDoubleDown} className="down-arrow" />
-                    </div>
+                </div>
+            </div>
+            <div className="bottom-row">
+                <div className="arrow" onClick={showPortfolio}>
+                    <FontAwesomeIcon icon={faAngleDoubleDown} className="down-arrow" />
                 </div>
             </div>
         </div>

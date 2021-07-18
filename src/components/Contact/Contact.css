@@ -57,8 +57,8 @@
 }
 
 .contact-indented-circle {
-    background: linear-gradient(45deg, #ff5e5e, #f8fc03);
+    background: linear-gradient(45deg, #ff5500, #e7008a);
     background-size: 200%, 200%;
-    height: 20px;
+    height: 40px;
     width: 100%;
 }

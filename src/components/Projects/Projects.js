@@ -64,7 +64,7 @@ const Projects = () => {
                             Flashback
                             <a href="https://github.com/neelismail01/flashback"><FontAwesomeIcon icon={faGithub} className="github-icon" /></a>
                         </p>                        <p className="project-description">
-                            Photo repository facilitating natural language searching of memories through tagging on upload.
+                            Photo repository that analyzes user generated tags of uploads to faciliate natural language searching of memories.
                         </p>
                         <p className="technologies">
                             React, Express, Node, PostgreSQL
