@@ -1,3 +1,8 @@
+.intro-container {
+    display: flex;
+    flex-direction: column;
+}
+
 .intro-background {
     height: 85vh;
     width: 100vw;
@@ -16,7 +21,7 @@
 .info-container {
     background-color: white;
     width: 40%;
-    min-width: 250px;
+    min-width: 375px;
     min-height: 450px;
     display: flex;
     flex-direction: column;
@@ -50,6 +55,7 @@
     margin-top: -15px;
     font-size: 1.1rem;
     color: #757575;
+    text-align: center;
 }
 
 .icons-row {
