@@ -46,7 +46,7 @@ const Projects = () => {
                             <a href="https://github.com/neelismail01/order-bud"><FontAwesomeIcon icon={faGithub} className="github-icon" /></a>
                         </p>
                         <p className="project-description">
-                            Social marketplace enabling users to discover and transact with local businesses and share purchases with friends.
+                            Social marketplace app enabling users to discover and transact with local businesses and share purchases with friends.
                         </p>
                         <p className="technologies">
                             React Native, Redux, Express, Node, MongoDB
@@ -64,7 +64,7 @@ const Projects = () => {
                             Flashback
                             <a href="https://github.com/neelismail01/flashback"><FontAwesomeIcon icon={faGithub} className="github-icon" /></a>
                         </p>                        <p className="project-description">
-                            Photo repository that analyzes user generated tags of uploads to faciliate natural language searching of memories.
+                            Photo repository that analyzes user generated tags of uploads to facilitate natural language searching of memories.
                         </p>
                         <p className="technologies">
                             React, Express, Node, PostgreSQL
