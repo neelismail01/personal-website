@@ -1,6 +1,6 @@
 .intro-background {
     height: 85vh;
-    width: 100wh;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -15,7 +15,8 @@
 
 .info-container {
     background-color: white;
-    min-width: 500px;
+    width: 40%;
+    min-width: 250px;
     min-height: 450px;
     display: flex;
     flex-direction: column;
