@@ -24,7 +24,7 @@ const Intro = () => {
                     <div className="content">
                         <p className="name">Hi, I'm Neel.</p>
                         <p className="intro-text">Computer Science @ <strong>University of Waterloo</strong></p>
-                        <p className="intro-text">SWE @ <strong>RBC Capital Markets</strong>, Prev SWE @ <strong>Fidelity Investments</strong></p>
+                        <p className="intro-text">Incoming SWE @ <strong>RBC Capital Markets</strong></p>
                         <div className="icons-row">
                             <a href="https://www.linkedin.com/in/neelismail/" >
                                 <FontAwesomeIcon icon={faLinkedin} className="icon" />
@@ -37,11 +37,9 @@ const Intro = () => {
                             </a>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div className="bottom-row">
-                <div className="arrow" onClick={showPortfolio}>
-                    <FontAwesomeIcon icon={faAngleDoubleDown} className="down-arrow" />
+                    <div className="arrow" onClick={showPortfolio}>
+                        <FontAwesomeIcon icon={faAngleDoubleDown} className="down-arrow" />
+                    </div>
                 </div>
             </div>
         </div>

@@ -20,7 +20,7 @@ const Projects = () => {
                 <div className="projects-header">
                     <div className="header-underline" />
                     <h1>Projects</h1>
-                    <p>I love building cool things to learn new technologies and solve problems. Here are some of my most recent projects.</p>
+                    <p>Here are some of my most recent projects. Feel free to click on the Github icons to view more details and the source code.</p>
                 </div>
                 <div className="project-container">
                     <div class="project">
@@ -46,7 +46,7 @@ const Projects = () => {
                             <a href="https://github.com/neelismail01/order-bud"><FontAwesomeIcon icon={faGithub} className="github-icon" /></a>
                         </p>
                         <p className="project-description">
-                            Social marketplace app enabling users to discover and transact with local businesses and share purchases with friends.
+                            Social marketplace enabling users to discover and transact with local businesses and share purchases with friends.
                         </p>
                         <p className="technologies">
                             React Native, Redux, Express, Node, MongoDB
@@ -98,7 +98,7 @@ const Projects = () => {
                         </div>
                         <p className="project-name">
                             Smart Brain
-                            <a href="https://github.com/neelismail01/smart-brain"><FontAwesomeIcon icon={faGithub} className="github-icon" /></a>
+                    <a href="https://github.com/neelismail01/smart-brain"><FontAwesomeIcon icon={faGithub} className="github-icon" /></a>
                         </p>
                         <p className="project-description">
                             Uses Clarifai facial recognition API to detect faces within any uploaded image.
@@ -117,7 +117,7 @@ const Projects = () => {
                         </div>
                         <p className="project-name">
                             Analyst Alexa
-                            <a href="https://github.com/neelismail01/smart-brain"><FontAwesomeIcon icon={faLink} className="link-icon" /></a>
+                    <a href="https://creator.voiceflow.com/prototype/600328e1e386c80007e2dd54"><FontAwesomeIcon icon={faLink} className="link-icon" /></a>
                         </p>
                         <p className="project-description">
                             An Alexa app that can answer various common queries about publicly traded companies.
