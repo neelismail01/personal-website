@@ -46,7 +46,7 @@ const Projects = () => {
                             <a href="https://github.com/neelismail01/order-bud"><FontAwesomeIcon icon={faGithub} className="github-icon" /></a>
                         </p>
                         <p className="project-description">
-                            Social marketplace app enabling users to discover and transact with local businesses and share purchases with friends.
+                            Marketplace app enabling users to discover and transact with local businesses. Facilitated capability for businesses to manage store profiles and track sales within the app.
                         </p>
                         <p className="technologies">
                             React Native, Redux, Express, Node, MongoDB
