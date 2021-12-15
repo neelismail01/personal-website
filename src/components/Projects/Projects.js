@@ -23,6 +23,35 @@ const Projects = () => {
                     <p>Here are some of my most recent projects. Feel free to click on the Github icons to view more details and the source code.</p>
                 </div>
                 <div className="project-container">
+                <div class="project">
+                        <div className="mobile-project-image">
+                            <img
+                                src={orderbudmenu}
+                                alt="order bud menu"
+                                className="mobile-image-left"
+                            />
+                            <img
+                                src={orderbudhome}
+                                alt="order bud home"
+                                className="mobile-image-main"
+                            />
+                            <img
+                                src={orderbudfriends}
+                                alt="order bud friends"
+                                className="mobile-image-right"
+                            />
+                        </div>
+                        <p className="project-name">
+                            Drip Locker
+                            <a href="https://github.com/neelismail01/drip-frontend"><FontAwesomeIcon icon={faGithub} className="github-icon" /></a>
+                        </p>
+                        <p className="project-description">
+                            Social media app enabling users to share purchases with friends and offer organic marketing to brands.
+                        </p>
+                        <p className="technologies">
+                            React Native, Redux, Node, MongoDB, Docker, AWS (S3, Lambda, API Gateway, ECR)
+                        </p>
+                    </div>
                     <div class="project">
                         <div className="mobile-project-image">
                             <img
