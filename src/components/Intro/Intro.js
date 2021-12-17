@@ -24,7 +24,7 @@ const Intro = () => {
                     <div className="content">
                         <p className="name">Hi, I'm Neel.</p>
                         <p className="intro-text">Computer Science @ <strong>University of Waterloo</strong></p>
-                        <p className="intro-text">Incoming SWE @ <strong>RBC Capital Markets</strong></p>
+                        <p className="intro-text">SWE @ <strong>RBC Capital Markets</strong>, <strong>UW Blueprint</strong></p>
                         <div className="icons-row">
                             <a href="https://www.linkedin.com/in/neelismail/" >
                                 <FontAwesomeIcon icon={faLinkedin} className="icon" />
