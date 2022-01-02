@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: white;
 }
 
 .contact-header {
@@ -12,10 +13,11 @@
     justify-content: center;
     width: 50%;
     padding-bottom: 3rem;
+    margin-top: 3rem;
 }
 
 .contact-underline {
-    background: linear-gradient(45deg, #ff5500, #f8fc03);
+    background: linear-gradient(45deg, #e7008a, #ff5e5e, #f8fc03);
     background-size: 200% 400%;
     width: 100px;
     height: 5px;
@@ -26,19 +28,20 @@
 .contact-header h1 {
     font-size: 2.25rem;
     text-align: center;
+    color: black;
 }
 
 .contact-text {
     line-height: 1.5rem;
-    color: grey;
+    color: rgb(75, 75, 75);
     text-align: center;
 }
 
 .email-button {
     height: 50px;
     width: 150px;
-    background: linear-gradient(45deg, #ff5500, #f8fc03);
-    background-size: 400% 200%;
+    background: linear-gradient(45deg,  #e7008a, #ff5e5e, #f8fc03);
+    background-size: 200%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,8 +60,8 @@
     font-weight: bold;
 }
 
-.contact-indented-circle {
-    background: linear-gradient(45deg, #ff5500, #e7008a);
+.contact-bottom-bar {
+    background: linear-gradient(45deg,  #e7008a, #ff5e5e, #f8fc03);
     background-size: 200%, 200%;
     height: 40px;
     width: 100%;

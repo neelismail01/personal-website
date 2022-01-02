@@ -1,16 +1,19 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faLink } from '@fortawesome/free-solid-svg-icons';
 
 import './Projects.css';
 import flashback from '../../assets/flashback.png';
+import driplockerfeed from '../../assets/drip-locker-feed.png';
+import driplockerprofile from '../../assets/drip-locker-profile.png';
+import driplockersearch from '../../assets/drip-locker-search.png';
+import chatappconversation from '../../assets/chat-app-conversation.png'
+import chatappconversationlist from '../../assets/chat-app-conversation-list.png'
+import chatappregister from '../../assets/chat-app-register.png'
 import orderbudhome from '../../assets/order-bud-home.png';
 import orderbudmenu from '../../assets/order-bud-menu.png';
-import orderbudfriends from '../../assets/order-bud-friends.png';
-import smartbrain from '../../assets/smart-brain.jpeg';
+import orderbudbusiness from '../../assets/order-bud-business.png';
 import catan from '../../assets/catan.png';
-import alexa from '../../assets/alexa.png';
 
 const Projects = () => {
 
@@ -26,18 +29,18 @@ const Projects = () => {
                 <div class="project">
                         <div className="mobile-project-image">
                             <img
-                                src={orderbudmenu}
-                                alt="order bud menu"
+                                src={driplockersearch}
+                                alt="drip locker search"
                                 className="mobile-image-left"
                             />
                             <img
-                                src={orderbudhome}
-                                alt="order bud home"
+                                src={driplockerfeed}
+                                alt="drip locker feed"
                                 className="mobile-image-main"
                             />
                             <img
-                                src={orderbudfriends}
-                                alt="order bud friends"
+                                src={driplockerprofile}
+                                alt="drip locker profile"
                                 className="mobile-image-right"
                             />
                         </div>
@@ -45,11 +48,11 @@ const Projects = () => {
                             Drip Locker
                             <a href="https://github.com/neelismail01/drip-frontend"><FontAwesomeIcon icon={faGithub} className="github-icon" /></a>
                         </p>
-                        <p className="project-description">
-                            Social media app enabling users to share purchases with friends and offer organic marketing to brands.
-                        </p>
                         <p className="technologies">
-                            React Native, Redux, Node, MongoDB, Docker, AWS (S3, Lambda, API Gateway, ECR)
+                            React Native, Node.js, MongoDB, Docker, AWS
+                        </p>
+                        <p className="project-description">
+                            Social media app enabling users to share pictures of purchases with friends.
                         </p>
                     </div>
                     <div class="project">
@@ -65,8 +68,8 @@ const Projects = () => {
                                 className="mobile-image-main"
                             />
                             <img
-                                src={orderbudfriends}
-                                alt="order bud friends"
+                                src={orderbudbusiness}
+                                alt="order bud business"
                                 className="mobile-image-right"
                             />
                         </div>
@@ -74,11 +77,40 @@ const Projects = () => {
                             OrderBud
                             <a href="https://github.com/neelismail01/order-bud"><FontAwesomeIcon icon={faGithub} className="github-icon" /></a>
                         </p>
+                        <p className="technologies">
+                            React Native, Express.js, Node.js, MongoDB
+                        </p>
                         <p className="project-description">
-                            Marketplace app enabling users to discover and transact with local businesses. Facilitated capability for businesses to manage store profiles and track sales within the app.
+                            Prototype for marketplace app enabling users to discover and transact with local businesses.
+                        </p>
+                    </div>
+                    <div class="project">
+                        <div className="mobile-project-image">
+                            <img
+                                src={chatappconversationlist}
+                                alt="chat app conversation list"
+                                className="mobile-image-left"
+                            />
+                            <img
+                                src={chatappconversation}
+                                alt="chat app conversation"
+                                className="mobile-image-main"
+                            />
+                            <img
+                                src={chatappregister}
+                                alt="chat app register"
+                                className="mobile-image-right"
+                            />
+                        </div>
+                        <p className="project-name">
+                            Real Time Chat App
+                            <a href="https://github.com/neelismail01/real-time-chat-app"><FontAwesomeIcon icon={faGithub} className="github-icon" /></a>
                         </p>
                         <p className="technologies">
-                            React Native, Redux, Express, Node, MongoDB
+                            Swift, UIKit, Firebase
+                        </p>
+                        <p className="project-description">
+                            Real-time messaging app capable of sending multimedia including text, photos, and videos.
                         </p>
                     </div>
                     <div class="project">
@@ -92,11 +124,13 @@ const Projects = () => {
                         <p className="project-name">
                             Flashback
                             <a href="https://github.com/neelismail01/flashback"><FontAwesomeIcon icon={faGithub} className="github-icon" /></a>
-                        </p>                        <p className="project-description">
-                            Photo repository that analyzes user generated tags of uploads to facilitate natural language searching of memories.
+                        
                         </p>
                         <p className="technologies">
-                            React, Express, Node, PostgreSQL
+                            React, Express, Node.js, PostgreSQL
+                        </p>
+                        <p className="project-description">
+                            Photo repository that analyzes user generated tags to facilitate natural language searching of memories.
                         </p>
                     </div>
                     <div class="project">
@@ -110,49 +144,11 @@ const Projects = () => {
                         <p className="project-name">
                             Settlers of Catan
                         </p>
-                        <p className="project-description">
-                            Waterloo-inspired version of Settlers of Catan board game that can be played through the command line.
-                        </p>
                         <p className="technologies">
                             C++, OOP, Observer Design Pattern
                         </p>
-                    </div>
-                    <div class="project">
-                        <div className="project-image">
-                            <img
-                                src={smartbrain}
-                                alt="smart brain"
-                                className="image"
-                            />
-                        </div>
-                        <p className="project-name">
-                            Smart Brain
-                    <a href="https://github.com/neelismail01/smart-brain"><FontAwesomeIcon icon={faGithub} className="github-icon" /></a>
-                        </p>
                         <p className="project-description">
-                            Uses Clarifai facial recognition API to detect faces within any uploaded image.
-                        </p>
-                        <p className="technologies">
-                            React, Express, Node, PostgreSQL
-                        </p>
-                    </div>
-                    <div class="project">
-                        <div className="project-image">
-                            <img
-                                src={alexa}
-                                alt="analyst alexa"
-                                className="image"
-                            />
-                        </div>
-                        <p className="project-name">
-                            Analyst Alexa
-                    <a href="https://creator.voiceflow.com/prototype/600328e1e386c80007e2dd54"><FontAwesomeIcon icon={faLink} className="link-icon" /></a>
-                        </p>
-                        <p className="project-description">
-                            An Alexa app that can answer various common queries about publicly traded companies.
-                        </p>
-                        <p className="technologies">
-                            Voiceflow, JavaScript, Yahoo Finance API
+                            Waterloo-inspired version of Settlers of Catan board game that can be played through the command line.
                         </p>
                     </div>
                 </div>
