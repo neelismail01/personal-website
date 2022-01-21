@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.86d240f8.chunk.css",
-    "main.js": "/static/js/main.85b5a1cf.chunk.js",
-    "main.js.map": "/static/js/main.85b5a1cf.chunk.js.map",
+    "main.js": "/static/js/main.60ffd8a9.chunk.js",
+    "main.js.map": "/static/js/main.60ffd8a9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9b89de3f.js",
     "runtime-main.js.map": "/static/js/runtime-main.9b89de3f.js.map",
     "static/js/2.4d1343ba.chunk.js": "/static/js/2.4d1343ba.chunk.js",
@@ -11,7 +11,7 @@
     "static/css/main.86d240f8.chunk.css.map": "/static/css/main.86d240f8.chunk.css.map",
     "static/js/2.4d1343ba.chunk.js.LICENSE.txt": "/static/js/2.4d1343ba.chunk.js.LICENSE.txt",
     "static/media/Ismail_N.ce610573.jpg": "/static/media/Ismail_N.ce610573.jpg",
-    "static/media/Neel-Ismail-Resume.3100cca2.pdf": "/static/media/Neel-Ismail-Resume.3100cca2.pdf",
+    "static/media/Neel-Ismail-Resume.1d418de1.pdf": "/static/media/Neel-Ismail-Resume.1d418de1.pdf",
     "static/media/catan.01811473.png": "/static/media/catan.01811473.png",
     "static/media/chat-app-conversation-list.c96e89e8.png": "/static/media/chat-app-conversation-list.c96e89e8.png",
     "static/media/chat-app-conversation.5905aa2f.png": "/static/media/chat-app-conversation.5905aa2f.png",
@@ -31,6 +31,6 @@
     "static/js/runtime-main.9b89de3f.js",
     "static/js/2.4d1343ba.chunk.js",
     "static/css/main.86d240f8.chunk.css",
-    "static/js/main.85b5a1cf.chunk.js"
+    "static/js/main.60ffd8a9.chunk.js"
   ]
 }
