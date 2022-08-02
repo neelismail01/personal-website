@@ -56,7 +56,7 @@ const Projects = () => {
                 <FontAwesomeIcon icon={faGithub} className="github-icon" />
               </a>
               <a href="https://apps.apple.com/us/app/drip-locker/id1599141142">
-                <FontAwesomeIcon icon={faAppStore} className="app-store-icon" />
+                <FontAwesomeIcon icon={faAppStore} className="github-icon" />
               </a>
             </p>
             <p className="technologies">
@@ -72,17 +72,17 @@ const Projects = () => {
               <img
                 src={queueitartistprofile}
                 alt="queue it artist profile"
-                className="mobile-image-left"
+                className="mobile-image-left-no-frame"
               />
               <img
                 src={queueithome}
                 alt="queue it home"
-                className="mobile-image-main"
+                className="mobile-image-main-no-frame"
               />
               <img
                 src={queueitsearch}
                 alt="queue it search"
-                className="mobile-image-right"
+                className="mobile-image-right-no-frame"
               />
             </div>
             <p className="project-name">
@@ -95,6 +95,36 @@ const Projects = () => {
             <p className="project-description">
               iOS app that enables multiple people to add music to the same
               queue.
+            </p>
+          </div>
+          <div class="project">
+            <div className="mobile-project-image">
+              <img
+                src={chatappconversationlist}
+                alt="chat app conversation list"
+                className="mobile-image-left"
+              />
+              <img
+                src={chatappconversation}
+                alt="chat app conversation"
+                className="mobile-image-main"
+              />
+              <img
+                src={chatappregister}
+                alt="chat app register"
+                className="mobile-image-right"
+              />
+            </div>
+            <p className="project-name">
+              Real Time Chat App
+              <a href="https://github.com/neelismail01/real-time-chat-app">
+                <FontAwesomeIcon icon={faGithub} className="github-icon" />
+              </a>
+            </p>
+            <p className="technologies">Swift, UIKit, Firebase</p>
+            <p className="project-description">
+              Real-time messaging app capable of sending multimedia including
+              text, photos, and videos.
             </p>
           </div>
           <div class="project">
@@ -127,36 +157,6 @@ const Projects = () => {
             <p className="project-description">
               Prototype for marketplace app enabling users to discover and
               transact with local businesses.
-            </p>
-          </div>
-          <div class="project">
-            <div className="mobile-project-image">
-              <img
-                src={chatappconversationlist}
-                alt="chat app conversation list"
-                className="mobile-image-left"
-              />
-              <img
-                src={chatappconversation}
-                alt="chat app conversation"
-                className="mobile-image-main"
-              />
-              <img
-                src={chatappregister}
-                alt="chat app register"
-                className="mobile-image-right"
-              />
-            </div>
-            <p className="project-name">
-              Real Time Chat App
-              <a href="https://github.com/neelismail01/real-time-chat-app">
-                <FontAwesomeIcon icon={faGithub} className="github-icon" />
-              </a>
-            </p>
-            <p className="technologies">Swift, UIKit, Firebase</p>
-            <p className="project-description">
-              Real-time messaging app capable of sending multimedia including
-              text, photos, and videos.
             </p>
           </div>
           <div class="project">
