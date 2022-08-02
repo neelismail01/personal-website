@@ -9,7 +9,7 @@ import driplockerprofile from "../../assets/drip-locker-profile.png";
 import driplockersearch from "../../assets/drip-locker-search.png";
 import queueithome from "../../assets/queue-it-home.png";
 import queueitsearch from "../../assets/queue-it-search.png";
-import queueitartistprofile from "../../assets/queue-it-artist-profile";
+import queueitartistprofile from "../../assets/queue-it-artist-profile.png";
 import chatappconversation from "../../assets/chat-app-conversation.png";
 import chatappconversationlist from "../../assets/chat-app-conversation-list.png";
 import chatappregister from "../../assets/chat-app-register.png";
