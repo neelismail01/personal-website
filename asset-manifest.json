@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.86d240f8.chunk.css",
-    "main.js": "/static/js/main.60ffd8a9.chunk.js",
-    "main.js.map": "/static/js/main.60ffd8a9.chunk.js.map",
+    "main.js": "/static/js/main.bcfc7d7e.chunk.js",
+    "main.js.map": "/static/js/main.bcfc7d7e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9b89de3f.js",
     "runtime-main.js.map": "/static/js/runtime-main.9b89de3f.js.map",
-    "static/js/2.4d1343ba.chunk.js": "/static/js/2.4d1343ba.chunk.js",
-    "static/js/2.4d1343ba.chunk.js.map": "/static/js/2.4d1343ba.chunk.js.map",
+    "static/js/2.df403471.chunk.js": "/static/js/2.df403471.chunk.js",
+    "static/js/2.df403471.chunk.js.map": "/static/js/2.df403471.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.86d240f8.chunk.css.map": "/static/css/main.86d240f8.chunk.css.map",
-    "static/js/2.4d1343ba.chunk.js.LICENSE.txt": "/static/js/2.4d1343ba.chunk.js.LICENSE.txt",
+    "static/js/2.df403471.chunk.js.LICENSE.txt": "/static/js/2.df403471.chunk.js.LICENSE.txt",
     "static/media/Ismail_N.ce610573.jpg": "/static/media/Ismail_N.ce610573.jpg",
-    "static/media/Neel-Ismail-Resume.1d418de1.pdf": "/static/media/Neel-Ismail-Resume.1d418de1.pdf",
+    "static/media/Neel-Ismail-Resume.6f42d06a.pdf": "/static/media/Neel-Ismail-Resume.6f42d06a.pdf",
     "static/media/catan.01811473.png": "/static/media/catan.01811473.png",
     "static/media/chat-app-conversation-list.c96e89e8.png": "/static/media/chat-app-conversation-list.c96e89e8.png",
     "static/media/chat-app-conversation.5905aa2f.png": "/static/media/chat-app-conversation.5905aa2f.png",
@@ -24,13 +24,16 @@
     "static/media/order-bud-business.abd63c15.png": "/static/media/order-bud-business.abd63c15.png",
     "static/media/order-bud-home.6ab7a1c2.png": "/static/media/order-bud-home.6ab7a1c2.png",
     "static/media/order-bud-menu.be681eaf.png": "/static/media/order-bud-menu.be681eaf.png",
+    "static/media/queue-it-artist-profile.036bc3b0.png": "/static/media/queue-it-artist-profile.036bc3b0.png",
+    "static/media/queue-it-home.e33a52c0.png": "/static/media/queue-it-home.e33a52c0.png",
+    "static/media/queue-it-search.052ce1cd.png": "/static/media/queue-it-search.052ce1cd.png",
     "static/media/wave-reversed.7dba1a58.svg": "/static/media/wave-reversed.7dba1a58.svg",
     "static/media/wave.be216eb2.svg": "/static/media/wave.be216eb2.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.9b89de3f.js",
-    "static/js/2.4d1343ba.chunk.js",
+    "static/js/2.df403471.chunk.js",
     "static/css/main.86d240f8.chunk.css",
-    "static/js/main.60ffd8a9.chunk.js"
+    "static/js/main.bcfc7d7e.chunk.js"
   ]
 }
