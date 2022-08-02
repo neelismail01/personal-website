@@ -93,8 +93,8 @@ const Projects = () => {
             </p>
             <p className="technologies">Swift, SwiftUI, Firebase, MusicKit</p>
             <p className="project-description">
-              iOS app that enables multiple people to add music to the same
-              queue.
+              Music player app for iOS that enables multiple people to add music
+              to the same queue.
             </p>
           </div>
           <div class="project">
